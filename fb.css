@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.header h1 {
+  display: inline-block;
+  margin: 0;
+  color: blue;
+}
+.right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  /* background-color: aqua; */
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  background-color: lightgray;
+  border-radius: 50%;
+  /* display: inline-block; */
+}
+i {
+  font-size: 20px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.man {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 4px;
+  /* justify-content: center; */
+}
+.man input {
+  padding: 8px;
+  background-color: lightgray;
+  opacity: 0.4;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 400px;
+}
+.man img {
+  height: 40px;
+  width: 40px;
+}
+.man span {
+  background-color: none;
+}
+.man i {
+  font-size: 28px;
+}
+.cards {
+  width: 150px;
+  height: 230px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  padding: 2px;
+  /* overflow: hidden; */
+}
+.card .story .white {
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.card .story .image {
+  background-color: yellow;
+  background-image: url("https://brandeps.com/icon-download/M/Man-icon-vector-02.svg");
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* z-index: 1; */
+}
+.card {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  /* gap: 5px; */
+  justify-content: space-between;
+}
+.card .story .white i {
+  position: absolute;
+  margin: -25px 0 0 -25px;
+  /* color: white; */
+  margin-top: -18px;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  border: 3px white solid;
+  border-radius: 50%;
+}
+.card .story .white h4 {
+  margin-top: 60px;
+}
+
+.card .story2 {
+  background: url("https://images.unsplash.com/photo-1615022702095-ff2c036f3360?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  border-radius: 15px;
+  padding: 2px;
+  height: 227px;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.card .story2 .name h5 {
+  color: white;
+  /* font-size: 50px; */
+}
+.card .story2 .colo {
+  height: 25px;
+  width: 15px;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+
+.card .story3 {
+  background: url("https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  border-radius: 15px;
+  padding: 2px;
+  height: 227px;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.card .story3 .name h5 {
+  color: white;
+  /* font-size: 50px; */
+}
+.card .story3 .colo {
+  height: 25px;
+  width: 15px;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
